@@ -1,0 +1,51 @@
+# Raw data — too large for git; see Data/raw/README.md for download instructions
+Data/raw/linkedin_arshkon/
+Data/raw/lukebarousse_analyst/
+Data/raw/glassdoor_2020/
+Data/raw/open_apply_2026/
+Data/raw/ai_jobs_2025/
+Data/raw/ai_jobs_global_2026/
+Data/raw/global_ds_jobs/
+
+# Processed data — reproducible from raw via notebooks
+Data/interim/
+Data/processed/
+
+# Outputs — reproducible from notebooks
+outputs/figures/
+outputs/tables/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment / secrets
+.env
+*.env
+kaggle.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Claude Code internal
+.claude/
+CLAUDE.md
+Plan/
